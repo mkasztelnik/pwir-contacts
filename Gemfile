@@ -6,8 +6,20 @@ gem 'rails', '4.2.0'
 gem 'rails-api'
 gem 'pg'
 
-group :development do
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
   gem 'spring'
+end
+
+group :test do
+  gem 'shoulda-matchers', require: false
+  gem 'guard-rspec', require: false
+  gem 'guard-spring'
+  gem 'spring-commands-rspec'
+
+  gem 'factory_girl_rails', '~> 4.0'
+  gem 'database_cleaner'
+  gem 'faker'
 end
 
 group :production do
