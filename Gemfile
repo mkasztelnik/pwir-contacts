@@ -7,6 +7,7 @@ gem 'rails-api'
 gem 'pg'
 
 gem 'active_model_serializers', '~>0.8.0'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
