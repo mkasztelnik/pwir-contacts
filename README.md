@@ -22,7 +22,7 @@ applications.
 
 ## Deploy to heroku
 
-  TODO
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Contributing
 
