@@ -2,7 +2,7 @@
 
 This is a simple application created for
 [PWIR](http://artemis.wszib.edu.pl/~kaszteln/pwir)
-course showing how REST API can be created na used to build rich internet
+course showing how REST API can be created and used to build rich internet
 applications.
 
 ## Requirements
