@@ -1,4 +1,4 @@
-# Pwir Contacts
+# Pwir Contacts [![Build Status](https://travis-ci.org/mkasztelnik/pwir-contacts.svg)](https://travis-ci.org/mkasztelnik/pwir-contacts)
 
 This is a simple application created for
 [PWIR](http://artemis.wszib.edu.pl/~kaszteln/pwir)
