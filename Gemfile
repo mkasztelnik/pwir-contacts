@@ -6,6 +6,8 @@ gem 'rails', '4.2.0'
 gem 'rails-api'
 gem 'pg'
 
+gem 'active_model_serializers', '~>0.8.0'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'spring'
