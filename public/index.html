@@ -23,7 +23,7 @@
         <li class="active"><a href="#index" role="tab" data-toggle="tab">List contacts</a></li>
         <li><a href="#show" role="tab" data-toggle="tab">Show contact</a></li>
         <li><a href="#create" role="tab" data-toggle="tab">Create new contact</a></li>
-        <li><a href="#show" role="tab" data-toggle="tab">Update contact</a></li>
+        <li><a href="#update" role="tab" data-toggle="tab">Update contact</a></li>
         <li><a href="#destroy" role="tab" data-toggle="tab">Destroy contact</a></li>
       </ul>
 
@@ -126,16 +126,14 @@ curl -v https://pwir-contacts.herokuapp.com/api/v1/contacts
                 </p>
                 <pre>
 {
-  "contact": [
-    {
-      "id": 1,
-      "first_name": "John",
-      "last_name": "Doe",
-      "email": "john@doe.pl",
-      "telephone": "123123123",
-      "address": "Some address"
-    }
-  ]
+  "contact": {
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john@doe.pl",
+    "telephone": "123123123",
+    "address": "Some address"
+  }
 }
                 </pre>
               </td>
@@ -191,15 +189,13 @@ curl -v https://pwir-contacts.herokuapp.com/api/v1/contacts/1
                 <p><strong>JSON</strong></p>
                 <pre>
 {
-  "contact": [
-    {
-      "first_name": "John",
-      "last_name": "Doe",
-      "email": "john@doe.pl",
-      "telephone": "123123123",
-      "address": "Some address"
-    }
-  ]
+  "contact": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john@doe.pl",
+    "telephone": "123123123",
+    "address": "Some address"
+  }
 }
                 </pre>
               </td>
@@ -216,16 +212,14 @@ curl -v https://pwir-contacts.herokuapp.com/api/v1/contacts/1
                 </p>
                 <pre>
 {
-  "contact": [
-    {
-      "id": 1,
-      "first_name": "John",
-      "last_name": "Doe",
-      "email": "john@doe.pl",
-      "telephone": "123123123",
-      "address": "Some address"
-    }
-  ]
+  "contact": {
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john@doe.pl",
+    "telephone": "123123123",
+    "address": "Some address"
+  }
 }
                 </pre>
               </td>
@@ -285,15 +279,13 @@ curl -X POST --data '{"contact": {"first_name": "John", last_name": "Doe"}}' \
                 <p><strong>JSON</strong></p>
                 <pre>
 {
-  "contact": [
-    {
-      "first_name": "All",
-      "last_name": "Bundy",
-      "email": "all@bundy.pl",
-      "telephone": "321321321",
-      "address": "Updated address"
-    }
-  ]
+  "contact": {
+    "first_name": "All",
+    "last_name": "Bundy",
+    "email": "all@bundy.pl",
+    "telephone": "321321321",
+    "address": "Updated address"
+  }
 }
                 </pre>
               </td>
@@ -310,16 +302,14 @@ curl -X POST --data '{"contact": {"first_name": "John", last_name": "Doe"}}' \
                 </p>
                 <pre>
 {
-  "contact": [
-    {
-      "id": 1,
-      "first_name": "All",
-      "last_name": "Bundy",
-      "email": "all@bundy.pl",
-      "telephone": "321321321",
-      "address": "Updated address"
-    }
-  ]
+  "contact": {
+    "id": 1,
+    "first_name": "All",
+    "last_name": "Bundy",
+    "email": "all@bundy.pl",
+    "telephone": "321321321",
+    "address": "Updated address"
+  }
 }
                 </pre>
               </td>
